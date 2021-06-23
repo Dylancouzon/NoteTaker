@@ -1,24 +1,44 @@
-# README Generator
-Homework for UC Berkeley Extension Coding Bootcamp
+# Note Taker
+Project realized for UC Berkeley Extension Coding Bootcamp
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ![Site](./public/assets/screenshot.png)
 
 ## Technologies Used
-- Javascript - Backend coding
-- Node - JavaScript runtime environment
-- express - Node module to browse files
-- fs - Node module to write files
+<img align="left" alt="HTML" width="25x" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"/> &nbsp;
+<img align="left" alt="JavaScript" width="25x" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"/> &nbsp;
+<img align="left" alt="JavaScript" width="25x" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"/> &nbsp;
+<img align="left" alt="JavaScript" width="25x" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"/> &nbsp;
+
+- HTML
+- CSS
+- JavaScript
+- [Node.js](https://nodejs.org/en/)
+- npm packages:
+    - [Express](https://www.npmjs.com/package/express)
+    - [fs](https://www.npmjs.com/package/fs)
+
+<br>
+<hr>
 
 ## Summary 
-This app allows you to take notes and save them.
-The notes are persistant so you can come back to look a them at any time.
+This App allows you to write, save, and delete note efficiently.
+The notes are consistant and stored on your local machine for full privacy.
+
+<br>
+<hr>
 
 ## How to install
-You would need to download the project on your local machine, install node.js then run the command :
+Download the project on your local machine.
+Make sure you have node installed then at the root of the folder run the command:
 
 ```
-node install
+npm install
 ```
+
+<br>
+<hr>
 
 ## How to use it
 run the commande 
@@ -26,6 +46,10 @@ run the commande
 ```
 node server.js
 ```
+then visit: **http://localhost:3000/**
+
+<br>
+<hr>
 
 ## Code Snippet 
 ```js
@@ -42,12 +66,19 @@ app.delete('/api/notes/:id', (req, res) => {
   res.redirect('/notes');
 });
 ```
-In this example, I used the splice method to handle the deletion of the selected note.
+In this example, I used the splice method to delete the selected note from the JSON object, then stringify it and save it inside the db.json file using fs.
+
+<br>
+<hr>
 
 ## Result Example
-[Example](https://dylancouzon.github.io/Team_Profile_Generator/dist/Dylan.html)
+[Link](https://dylancouzon.github.io/Team_Profile_Generator/dist/Dylan.html)
 
-## Author Links
-[LinkedIn](https://www.linkedin.com/in/dcouzon/)
-[GitHub](https://github.com/Dylancouzon)
+<br>
+<hr>
+
+## Author
+- [dylancouzon@gmail.com](mailto:dylancouzon@gmail.com)
+- [GitHub](https://github.com/Dylancouzon)
+- [LinkedIn](https://www.linkedin.com/in/dcouzon/)
 
