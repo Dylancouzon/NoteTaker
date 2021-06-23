@@ -23,8 +23,8 @@ Project realized for UC Berkeley Extension Coding Bootcamp
 <hr>
 
 ## Summary 
-This App allows you to write, save, and delete note efficiently.
-The notes are consistant and stored on your local machine for full privacy.
+This App allows you to write, save, and delete notes efficiently.
+The notes are consistent and stored on your local machine for full privacy.
 
 <br>
 <hr>
